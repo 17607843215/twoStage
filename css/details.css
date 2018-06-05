@@ -1,0 +1,464 @@
+#leaderNav .container ul:first-of-type {
+  display: none; }
+
+#indexRight ul li {
+  border: 1px solid #eee; }
+
+#mainDetails {
+  background: #fff; }
+  #mainDetails .direDetails {
+    padding: 12px 0 17px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px; }
+    #mainDetails .direDetails .allKind {
+      border: 1px solid #ccc;
+      padding: 0 0 0 5px;
+      margin-right: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      #mainDetails .direDetails .allKind i {
+        margin-left: 5px; }
+      #mainDetails .direDetails .allKind:first-of-type {
+        width: 54px; }
+      #mainDetails .direDetails .allKind:nth-of-type(2) {
+        width: 120px; }
+      #mainDetails .direDetails .allKind:nth-of-type(3) {
+        width: 82px; }
+  #mainDetails .productDetails {
+    height: auto; }
+    #mainDetails .productDetails span {
+      color: #999;
+      margin-left: 10px;
+      display: inline-block;
+      width: 75px; }
+    #mainDetails .productDetails .leftDetails {
+      width: 402px;
+      height: auto;
+      position: relative; }
+      #mainDetails .productDetails .leftDetails .bigBox {
+        position: absolute;
+        z-index: 88;
+        left: 403px;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        top: 50px;
+        display: none; }
+        #mainDetails .productDetails .leftDetails .bigBox img {
+          position: absolute; }
+      #mainDetails .productDetails .leftDetails .top {
+        width: 402px;
+        height: 402px;
+        position: relative;
+        margin-bottom: 20px; }
+        #mainDetails .productDetails .leftDetails .top .floatBox {
+          width: 100px;
+          height: 100px;
+          background: #000;
+          opacity: 0.5;
+          position: absolute;
+          left: 0;
+          top: 0;
+          display: none; }
+        #mainDetails .productDetails .leftDetails .top ul li {
+          display: none; }
+          #mainDetails .productDetails .leftDetails .top ul li:first-of-type {
+            display: block; }
+        #mainDetails .productDetails .leftDetails .top img {
+          width: 400px; }
+      #mainDetails .productDetails .leftDetails .bottom ul li {
+        user-select: none;
+        margin-right: 10px; }
+        #mainDetails .productDetails .leftDetails .bottom ul li a {
+          border: 1px solid #ddd;
+          display: inline-block;
+          width: 35px;
+          height: 66px;
+          font-size: 30px;
+          color: #ddd;
+          line-height: 63px;
+          text-align: center; }
+        #mainDetails .productDetails .leftDetails .bottom ul li img {
+          border: 1px solid #eee;
+          margin: 2px; }
+          #mainDetails .productDetails .leftDetails .bottom ul li img:hover {
+            border: 3px solid red;
+            margin: 0; }
+        #mainDetails .productDetails .leftDetails .bottom ul li:last-of-type {
+          margin: 0; }
+    #mainDetails .productDetails .rightDetails {
+      width: 658px;
+      margin-left: 30px;
+      user-select: none; }
+      #mainDetails .productDetails .rightDetails dl span {
+        color: #666; }
+      #mainDetails .productDetails .rightDetails dl dd > div:nth-of-type(2) > span:first-of-type {
+        margin-left: 0; }
+      #mainDetails .productDetails .rightDetails dl .orig-country img {
+        width: 24px;
+        vertical-align: middle;
+        margin-right: 5px; }
+      #mainDetails .productDetails .rightDetails dl .orig-country a {
+        display: inline-block;
+        line-height: 24px; }
+      #mainDetails .productDetails .rightDetails dl .goods-title {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: bold;
+        margin: 10px 0 5px 0; }
+      #mainDetails .productDetails .rightDetails dl .goods-desc {
+        font-size: 12px;
+        margin-bottom: 11px; }
+      #mainDetails .productDetails .rightDetails dl .limit-time {
+        height: 40px;
+        background: url("https://mm.bst.126.net/goods/dist/pc/images/productinfoheadbar.7ad1875.jpg"); }
+      #mainDetails .productDetails .rightDetails dl .price-sale {
+        height: auto;
+        background: #f9f9f9;
+        padding-bottom: 10px;
+        border-bottom: 1px;
+        margin-bottom: 12px; }
+        #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-price-left {
+          height: auto;
+          line-height: 48px;
+          margin: 8px 0; }
+        #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-price-right {
+          margin: 8px 0; }
+          #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-price-right p {
+            line-height: 42px;
+            margin-left: 10px; }
+        #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-price-right > span {
+          color: #e31436;
+          width: auto;
+          font-size: 26px;
+          font-weight: bold;
+          margin: 8px;
+          white-space: nowrap;
+          height: 26px; }
+        #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-vip {
+          padding-top: 58px; }
+          #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-vip span {
+            display: inline;
+            margin: 0 10px; }
+          #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-vip img {
+            height: 14px;
+            vertical-align: middle; }
+          #mainDetails .productDetails .rightDetails dl .price-sale .my-price .my-vip a {
+            color: blue;
+            text-decoration: underline; }
+      #mainDetails .productDetails .rightDetails dl .activity {
+        height: auto;
+        padding-top: 12px; }
+        #mainDetails .productDetails .rightDetails dl .activity .activity-right span:first-of-type {
+          background: #e31436;
+          color: #fff;
+          width: auto;
+          padding: 0 10px; }
+        #mainDetails .productDetails .rightDetails dl .activity .activity-right span:nth-of-type(2) {
+          color: #e31436; }
+      #mainDetails .productDetails .rightDetails dl .yun-fei {
+        height: auto;
+        margin-top: 10px; }
+        #mainDetails .productDetails .rightDetails dl .yun-fei .yun-fei-right span {
+          display: inline; }
+      #mainDetails .productDetails .rightDetails dl .server {
+        height: auto;
+        margin-top: 6px; }
+        #mainDetails .productDetails .rightDetails dl .server .server-right span {
+          display: inline; }
+          #mainDetails .productDetails .rightDetails dl .server .server-right span:nth-of-type(2) {
+            color: #e31436; }
+        #mainDetails .productDetails .rightDetails dl .server .server-right .server-bottom span:first-of-type {
+          margin-left: 0; }
+      #mainDetails .productDetails .rightDetails dl .mount {
+        height: 24px;
+        margin-top: 6px; }
+      #mainDetails .productDetails .rightDetails dl .your-size {
+        margin: 9px 0 2px 0; }
+        #mainDetails .productDetails .rightDetails dl .your-size .your-size-right ul li {
+          margin-right: 20px; }
+          #mainDetails .productDetails .rightDetails dl .your-size .your-size-right ul li span {
+            display: inline-block;
+            padding: 2px 12px;
+            width: auto;
+            border: 1px solid #999;
+            margin: 0;
+            cursor: pointer; }
+            #mainDetails .productDetails .rightDetails dl .your-size .your-size-right ul li span:hover {
+              border: 1px solid #de2634; }
+      #mainDetails .productDetails .rightDetails dl .your-color {
+        margin-top: 9px; }
+        #mainDetails .productDetails .rightDetails dl .your-color span {
+          line-height: 50px; }
+        #mainDetails .productDetails .rightDetails dl .your-color .your-color-right li {
+          margin-right: 20px;
+          width: 58px;
+          height: 58px;
+          position: relative; }
+        #mainDetails .productDetails .rightDetails dl .your-color .your-color-right span {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          border: 1px solid #999;
+          width: 54px;
+          height: 54px;
+          cursor: pointer;
+          font-size: 0; }
+          #mainDetails .productDetails .rightDetails dl .your-color .your-color-right span:first-of-type {
+            margin-left: 0; }
+          #mainDetails .productDetails .rightDetails dl .your-color .your-color-right span:hover {
+            border: 2px solid #de2634; }
+          #mainDetails .productDetails .rightDetails dl .your-color .your-color-right span img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); }
+      #mainDetails .productDetails .rightDetails dl .mount .your-mount-right span {
+        border: 1px solid #999;
+        margin: 0;
+        height: 22px;
+        line-height: 16px;
+        width: 23px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer; }
+      #mainDetails .productDetails .rightDetails dl .mount .your-mount-right input {
+        border: 1px solid #999;
+        border-left: 0;
+        border-right: 0;
+        width: 48px;
+        height: 22px;
+        padding: 4px 5px;
+        text-align: center; }
+      #mainDetails .productDetails .rightDetails dl .explain {
+        height: auto;
+        margin-top: 9px;
+        position: relative; }
+        #mainDetails .productDetails .rightDetails dl .explain .your-explain-left span:nth-of-type(2) {
+          width: auto; }
+        #mainDetails .productDetails .rightDetails dl .explain .your-explain-right {
+          margin-top: 20px; }
+          #mainDetails .productDetails .rightDetails dl .explain .your-explain-right a {
+            height: 50px;
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 20px;
+            text-decoration: none; }
+            #mainDetails .productDetails .rightDetails dl .explain .your-explain-right a:first-of-type {
+              width: 160px;
+              line-height: 46px;
+              border: 2px solid #d41c44;
+              background: #ffeced;
+              color: #d31b44; }
+            #mainDetails .productDetails .rightDetails dl .explain .your-explain-right a:nth-of-type(2) {
+              width: 180px;
+              background: #e31436;
+              color: #fff; }
+            #mainDetails .productDetails .rightDetails dl .explain .your-explain-right a:nth-of-type(3) {
+              font-size: 12px; }
+        #mainDetails .productDetails .rightDetails dl .explain #jiaru {
+          position: absolute;
+          display: none;
+          width: 180px;
+          height: 50px;
+          background: #d31b44;
+          left: 200px;
+          top: 0; }
+  #mainDetails .activity-618 {
+    height: 80px;
+    margin: 40px 0 10px 0; }
+    #mainDetails .activity-618 a {
+      display: inline-block; }
+  #mainDetails .recommend h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 52px; }
+  #mainDetails .recommend ul {
+    border: 1px solid #eee;
+    padding: 17px 20px 12px 30px; }
+    #mainDetails .recommend ul li {
+      width: 138px;
+      margin-right: 41px; }
+      #mainDetails .recommend ul li:last-of-type {
+        margin-right: 0; }
+      #mainDetails .recommend ul li img {
+        width: 110px; }
+      #mainDetails .recommend ul li .recommend-bottom h4:hover a {
+        text-decoration: underline; }
+      #mainDetails .recommend ul li .recommend-bottom h4 a {
+        line-height: 20px;
+        color: #333; }
+      #mainDetails .recommend ul li .recommend-bottom p {
+        margin-top: 5px; }
+        #mainDetails .recommend ul li .recommend-bottom p span {
+          color: #de2634;
+          font-weight: bold;
+          font-size: 16px; }
+  #mainDetails .goodsDetails {
+    margin-top: 40px; }
+    #mainDetails .goodsDetails .goodsDetailsLeft {
+      width: 180px;
+      height: auto;
+      margin-right: 20px; }
+      #mainDetails .goodsDetails .goodsDetailsLeft .topLeft {
+        border: 1px solid #eee;
+        text-align: center;
+        margin-bottom: 15px; }
+        #mainDetails .goodsDetails .goodsDetailsLeft .topLeft .nameBar {
+          padding: 10px 20px 20px; }
+          #mainDetails .goodsDetails .goodsDetailsLeft .topLeft .nameBar a {
+            width: 90px;
+            height: 24px;
+            margin-top: 10px;
+            display: inline-block;
+            background: #333;
+            line-height: 24px;
+            color: #fff; }
+            #mainDetails .goodsDetails .goodsDetailsLeft .topLeft .nameBar a:hover {
+              text-decoration: none; }
+      #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft h3 {
+        font-size: 16px;
+        font-weight: bold; }
+      #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul {
+        border: 1px solid #eee;
+        margin-bottom: 20px; }
+        #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul li {
+          margin: 0 10px;
+          border-top: 1px solid #eee;
+          padding: 10px 0; }
+          #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul li h4 {
+            margin-top: 10px; }
+            #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul li h4 a {
+              color: #333; }
+          #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul li p {
+            margin-top: 10px; }
+            #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul li p span:first-of-type {
+              font-weight: bold;
+              font-size: 16px;
+              color: #de2634; }
+          #mainDetails .goodsDetails .goodsDetailsLeft .linkLeft ul li:first-of-type {
+            border-top: 0 none; }
+    #mainDetails .goodsDetails .goodsDetailsRight {
+      width: 890px;
+      height: auto; }
+      #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightLeader {
+        width: 100%;
+        border: 1px solid #eee;
+        background: #f8f8f8;
+        padding-top: 5px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightLeader .clickUp {
+          background: #fff;
+          border-top: 5px solid #de2634;
+          height: 53px;
+          font-weight: bold;
+          color: #de2634;
+          margin-top: -5px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightLeader span {
+          width: 160px;
+          height: 48px;
+          line-height: 40px;
+          text-align: center;
+          font-size: 16px;
+          color: #333;
+          position: relative; }
+          #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightLeader span i {
+            position: absolute;
+            width: 160px;
+            height: 54px;
+            top: -5px;
+            left: 0;
+            border-bottom: 1px solid #fff;
+            display: none; }
+          #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightLeader span a {
+            display: inline-block;
+            height: 49px;
+            width: 160px;
+            position: absolute;
+            left: 0;
+            top: 0; }
+          #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightLeader span em {
+            color: #de2634; }
+      #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .heightAuto {
+        height: auto !important; }
+      #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .goodsProperty {
+        height: 61px;
+        padding: 15px 0 0 20px;
+        overflow: hidden; }
+        #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .goodsProperty ul li {
+          width: 30%;
+          height: 18px;
+          line-height: 18px;
+          margin-top: 5px; }
+      #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .promise {
+        border: 1px solid #eee;
+        height: 95px;
+        padding: 15px 20px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .promise .left {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: #e31436;
+          font-weight: bold;
+          margin-right: 15px;
+          text-align: center; }
+          #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .promise .left p {
+            color: #fff;
+            font-size: 24px;
+            line-height: 40px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .promise .right h3 {
+          font-weight: bold;
+          font-size: 16px; }
+      #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .goodsPic {
+        text-align: center;
+        border-right: 1px solid #eee;
+        border-left: 1px solid #eee; }
+      #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .dropGoodsProperty {
+        padding: 15px 0 15px 20px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .dropGoodsProperty a {
+          color: #51b8f1;
+          border-bottom: 1px solid #51b8f1; }
+          #mainDetails .goodsDetails .goodsDetailsRight .goodsDetailsRightDetails .dropGoodsProperty a i {
+            color: #51b8f1;
+            cursor: pointer;
+            border-bottom: 1px solid #fff; }
+      #mainDetails .goodsDetails .goodsDetailsRight .userAppraise {
+        border: 1px solid #eee;
+        margin-top: 15px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .star {
+          height: 101px;
+          padding: 5px 25px 10px 30px; }
+          #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .star .starStar {
+            color: #de2634;
+            width: 613px;
+            padding: 15px 0;
+            border-right: 1px solid #eee; }
+            #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .star .starStar i {
+              font-size: 30px;
+              font-style: normal; }
+        #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allKind {
+          height: 50px;
+          background: #eee; }
+          #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allKind li {
+            margin: 15px 0 0 25px; }
+            #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allKind li:nth-last-of-type(2) {
+              margin-left: 200px; }
+        #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allAppraise {
+          padding: 20px 0; }
+          #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allAppraise .appraiseLeft .userImg {
+            margin: 6px 24px;
+            width: 40px;
+            height: 40px; }
+          #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allAppraise .appraiseCenter span {
+            margin-right: 20px; }
+          #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allAppraise .appraiseCenter .commendStar {
+            color: #de2634;
+            font-style: normal; }
+          #mainDetails .goodsDetails .goodsDetailsRight .userAppraise .allAppraise .appraiseCenter .userCommend {
+            margin-top: 20px; }

@@ -1,0 +1,48 @@
+#leaderNav .container ul:first-of-type {
+  display: none; }
+
+#mainDetails .direDetails {
+  padding: 12px 0 17px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px; }
+  #mainDetails .direDetails span {
+    color: #999; }
+  #mainDetails .direDetails .allKind {
+    border: 1px solid #ccc;
+    padding: 0 0 0 5px;
+    margin-right: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    #mainDetails .direDetails .allKind:first-of-type {
+      width: 54px; }
+    #mainDetails .direDetails .allKind:nth-of-type(2) {
+      width: 120px; }
+    #mainDetails .direDetails .allKind:nth-of-type(3) {
+      width: 82px; }
+
+#mainDetails .productDetails .leftDetails {
+  width: 402px;
+  height: 448px; }
+  #mainDetails .productDetails .leftDetails .top {
+    margin-bottom: 20px; }
+    #mainDetails .productDetails .leftDetails .top img {
+      width: 400px; }
+  #mainDetails .productDetails .leftDetails .bottom ul li {
+    margin-right: 10px; }
+    #mainDetails .productDetails .leftDetails .bottom ul li a {
+      border: 1px solid #ddd;
+      display: inline-block;
+      width: 35px;
+      height: 66px;
+      font-size: 30px;
+      color: #ddd;
+      line-height: 66px; }
+    #mainDetails .productDetails .leftDetails .bottom ul li img {
+      border: 1px solid #eee;
+      margin: 2px; }
+      #mainDetails .productDetails .leftDetails .bottom ul li img:hover {
+        border: 3px solid red;
+        margin: 0; }
+    #mainDetails .productDetails .leftDetails .bottom ul li:last-of-type {
+      margin: 0; }

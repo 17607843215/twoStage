@@ -1,0 +1,83 @@
+
+.includeGoods{
+  display: none;
+}
+
+
+#listMain{
+
+  .arrange{
+    width: 100%;
+    height: 38px;
+  }
+  .listGood{
+      ul li{
+        width:262px;
+        border:1px solid #eee;
+        background: #fff;
+        margin-bottom: 30px;
+        height: 350px;
+        .topList{
+          a{
+            display: inline-block;
+          img{
+            display: block;
+            width: 232px;
+            height: 232px;
+            padding: 15px 15px 10px;
+          }
+          }
+        }
+        .botList{
+          width: 234px;
+          padding: 0 14px 11px;
+          h2{
+            width: 234px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            height: 40px;
+            &:hover{
+              height: 40px;
+              white-space: normal;
+              //text-overflow: ;
+              overflow: visible;
+            }
+          }
+          p{
+            &:first-of-type{
+              span{
+                &:first-of-type{
+                  margin-right: 2px;
+                  font-weight: bold;
+                  font-size: 22px;
+                  line-height: 24px;
+                  color: #e31436;
+                }
+              }
+            }
+            &:last-of-type{
+              span{
+                &:first-of-type{
+                  float: left;
+                  position: relative;
+                  display: inline-block;
+                  padding-left: 20px;
+                  color: #333;
+                  font-weight: bold;
+                }
+                &:last-of-type{
+                  float: right;
+                  max-width: 110px;
+                  color: #999;
+                }
+              }
+            }
+          }
+          span{
+            color:#999;
+          }
+        }
+      }
+  }
+}

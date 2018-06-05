@@ -1,0 +1,229 @@
+
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title title
+        link(rel='stylesheet', type='text/css', href='../css/index.css')
+        link(rel='stylesheet', type='text/css', href='../css/common.css')
+        link(rel='stylesheet', type='text/css', href='../css/login.css')
+        link(rel='stylesheet', type='text/css', href='../font/font/iconfont.css')
+    body
+        header#loginTop
+            .container.clearfix
+
+                ul.clearfix.fr
+                    li.fl.clearfix
+                        i(class='iconfont icon-tui').fl
+                        p.fl
+                            strong  30天无忧退货
+                            span    国内退货 售后无忧
+                    li.fl.clearfix
+                        i(class='iconfont icon-zheng').fl
+                        p.fl
+                            strong  100%正品
+                            span    正品保障 假一赔十
+                    li.fl.clearfix
+                        i(class='iconfont icon-feiji').fl
+                        p.fl
+                            strong  低价保障
+                            span    缩减中间环节 确保低价
+        div#loginMain
+            div.container
+                div.loginFormAll
+                    div.loginFormPhone#phoneRegi
+                            div.loginFormPhoneTitle
+                                h3  欢迎注册
+                                    p   已有帐号？
+                                        a(href='#denglu')#dengluA 去登录
+                            div.phoneLogin
+                                form.userImfo
+                                    div.phoneNum
+                                       i
+                                       input(type='text' placeholder="请输入手机号")
+                                    div.huadong     按住滑块，拖动完成上方拼图
+                                        span
+                                            img(src='../imgs/huadong.png')
+                                    div.yanZhengMa.clearfix
+                                        input(placeholder='请输入短信验证码' type='text').fl
+                                        input(value='获取验证码' type='button').fl
+                                    div.pwd
+                                        i
+                                        input(placeholder='请输入密码')
+                                    div.error
+                                    div.loginC
+                                        input(type='button' value='注册')
+                                    div.tiaokuan
+                                        input(type='checkbox')
+                                        p   我同意《服务条款》和《网易隐私政策》
+                    div.loginFormPhone#denglu
+                        div.loginFormPhoneTitle.clearfix
+                            h3.fl
+                                a(href='#denglu')  手机号登录
+                            span.fl    |
+                            h3.fl
+                                a(href='#dengluM' )#dengluMA  邮箱登录
+                        div.phoneLogin
+                            form.userImfo
+                                div.phoneNum
+                                    i
+                                    input(type='text' placeholder="请输入手机号")
+                                div.huadong     按住滑块，拖动完成上方拼图
+                                    span
+                                        img(src='../imgs/huadong.png')
+                                div.yanZhengMa.clearfix
+                                    input(placeholder='请输入短信验证码' type='text').fl
+                                    input(value='获取验证码' type='button').fl
+                                div.error
+                                div.loginC
+                                    input(type='button' value='登录')
+                                div.tiaokuan
+                                    input(type='checkbox')
+                                    p   10天免登录
+                        div.bottom
+                                    ul.clearfix
+                                        li.fl
+                                            a(href='#')
+                                            i(class='iconfont icon-weixin')
+                                        li.fl
+                                            a(href='#')
+                                            i(class='iconfont icon-weixin')
+                                        li.fl
+                                            a(href='#')
+                                            i(class='iconfont icon-weixin')
+                                        li.fl
+                                            a(href='#')
+                                            i(class='iconfont icon-weixin')
+                    div.loginFormPhone#dengluM
+                        div.loginFormPhoneTitle.clearfix
+                            h3.fl  手机号登录
+                            span.fl    |
+                            h3.fl  邮箱登录
+                        div.phoneLogin
+                            form.userImfo
+                                div.phoneNum
+                                    i
+                                    input(type='text' placeholder="网易邮箱帐号")
+                                div.phoneNum
+                                    i
+                                    input(type='text' placeholder="密码")
+                                div.error
+                                div.loginC
+                                    input(type='button' value='登录')
+                                div.tiaokuan
+                                    input(type='checkbox')
+                                    p   10天免登录
+                        div.bottom
+                            ul.clearfix
+                                li.fl
+                                    a(href='#')
+                                    i(class='iconfont icon-weixin')
+                                li.fl
+                                    a(href='#')
+                                    i(class='iconfont icon-weixin')
+                                li.fl
+                                    a(href='#')
+                                    i(class='iconfont icon-weixin')
+                                li.fl
+                                    a(href='#')
+                                    i(class='iconfont icon-weixin')
+
+
+        footer#footer
+            div.container
+            div.container
+                ul.clearfix
+                    li.fl
+                        span    关注我们
+                        i(class='iconfont icon-weibo')
+                        i(class='iconfont icon-weixin')
+                        i(class='iconfont icon-weibo')
+                    li.fl
+                        dl
+                            dt 考拉保障
+                            dd
+                                a(href='#') 假一赔十
+                            dd
+                                a(href='#') 廉政监督
+                    li.fl
+                        dl
+                            dt 新手指南
+                            dd
+                                a(href='#') 购物流程
+                            dd
+                                a(href='#') 支付方式
+                            dd
+                                a(href='#') 通关税费
+                            dd
+                                a(href='#') 常见问题
+                    li.fl
+                        dl
+                            dt 售后服务
+                            dd
+                                a(href='#') 退货政策
+                            dd
+                                a(href='#') 退货流程
+                            dd
+                                a(href='#') 退款说明
+                            dd
+                                a(href='#') 联系客服
+                    li.fl
+                        dl
+                            dt 物流配送
+                            dd
+                                a(href='#') 配送方式
+                            dd
+                                a(href='#') 配送服务
+                            dd
+                                a(href='#') 运费标准
+                            dd
+                                a(href='#') 物流跟踪
+                    li.fl
+                        dl
+                            dt 关于我们
+                            dd
+                                a(href='#') 联系我们
+                            dd
+                                a(href='#') 招商合作
+                            dd
+                                a(href='#') 销售联盟
+                            dd
+                                a(href='#') CEO邮箱
+                    li.fl
+                        img(src='imgs/footerErWei.jpg')
+                        p    扫描下载手机版
+            div.bottom
+                div.container
+                    a   About NetEase
+                    span -
+                    a   公司简介
+                    span -
+                    a   联系方法
+                    span -
+                    a   友情链接
+                    span -
+                    a   招聘信息
+                    span -
+                    a   客户服务
+                    span -
+                    a   隐私政策
+                    span -
+                    a   网络营销
+                    span -
+                    a   网站地图
+                    span -
+                    a   网易考拉海购
+                    div.secondLine
+                        span 网络文化经营许可证：浙网文[2016]0155-055号
+                            img(src='imgs/network.png')
+                        span 增值电信业务经营许可证：浙B2-20160288
+                        a 自营经营者信息
+                    div.secondLine
+                        a   浙公网安备 33010802002216号
+                        span 网易公司版权所有©1997-2018
+                        a   互联网药品信息服务资格证书编号（浙）-2017-0027
+
+
+        script(src='../lib/jquery-3.2.1.js')
+        script(src='../js/login.js')
+
+

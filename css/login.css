@@ -1,0 +1,136 @@
+body {
+  background: #fff; }
+
+#loginTop .container {
+  height: 100px; }
+  #loginTop .container ul li {
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 30px; }
+    #loginTop .container ul li strong {
+      font-size: 20px; }
+    #loginTop .container ul li span {
+      display: block; }
+    #loginTop .container ul li i {
+      font-size: 40px;
+      color: #de2634; }
+
+#loginMain {
+  background: center center url(//haitao.nos.netease.com/1cer3k81796_1920_520.jpg?imageView&thumbnail=1920x0&quality=90); }
+  #loginMain .container {
+    position: relative;
+    height: 520px; }
+    #loginMain .container .loginFormAll {
+      position: absolute;
+      right: 100px;
+      top: 50px;
+      height: auto; }
+      #loginMain .container .loginFormAll #denglu {
+        display: none; }
+        #loginMain .container .loginFormAll #denglu h3 {
+          color: #333;
+          cursor: pointer; }
+          #loginMain .container .loginFormAll #denglu h3 a {
+            font-size: 16px; }
+          #loginMain .container .loginFormAll #denglu h3:first-of-type {
+            color: #e31436; }
+        #loginMain .container .loginFormAll #denglu .phoneLogin {
+          height: auto; }
+      #loginMain .container .loginFormAll #dengluM {
+        display: none; }
+        #loginMain .container .loginFormAll #dengluM .loginFormPhoneTitle h3 {
+          cursor: pointer; }
+          #loginMain .container .loginFormAll #dengluM .loginFormPhoneTitle h3:first-of-type {
+            color: #333; }
+        #loginMain .container .loginFormAll #dengluM .phoneLogin {
+          height: auto; }
+      #loginMain .container .loginFormAll .bottom {
+        background: #f8f8f8;
+        width: 100%;
+        padding: 10px 40px; }
+        #loginMain .container .loginFormAll .bottom ul li {
+          margin-right: 5px; }
+      #loginMain .container .loginFormAll .loginFormPhoneTitle {
+        border-bottom: 1px solid #ddd;
+        background: #f8f8f8; }
+        #loginMain .container .loginFormAll .loginFormPhoneTitle h3 {
+          padding: 0 40px;
+          color: #e31436;
+          font-size: 16px;
+          height: 53px;
+          line-height: 53px;
+          font-weight: bold; }
+          #loginMain .container .loginFormAll .loginFormPhoneTitle h3 p {
+            display: inline-block;
+            float: right;
+            color: #333; }
+            #loginMain .container .loginFormAll .loginFormPhoneTitle h3 p a {
+              color: #51b8f1; }
+              #loginMain .container .loginFormAll .loginFormPhoneTitle h3 p a:hover {
+                text-decoration: underline; }
+        #loginMain .container .loginFormAll .loginFormPhoneTitle span {
+          line-height: 54px;
+          height: 54px;
+          font-size: 26px;
+          color: #ddd; }
+      #loginMain .container .loginFormAll .loginFormPhone {
+        width: 350px;
+        height: 388px; }
+        #loginMain .container .loginFormAll .loginFormPhone .phoneLogin {
+          padding: 20px 40px 15px;
+          height: 335px;
+          background: #fff; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin input {
+            border: 1px solid #eee;
+            height: 36px;
+            line-height: 36px;
+            width: 100%;
+            padding-left: 20px;
+            border-radius: 3px; }
+            #loginMain .container .loginFormAll .loginFormPhone .phoneLogin input::-webkit-input-placeholder {
+              color: #ccc;
+              font-weight: bold; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin div {
+            margin-bottom: 16px; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .yanZhengMa input {
+            width: auto; }
+            #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .yanZhengMa input:first-of-type {
+              width: 66%; }
+            #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .yanZhengMa input:nth-of-type(2) {
+              width: 34%;
+              padding-left: 0; }
+              #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .yanZhengMa input:nth-of-type(2):hover {
+                color: #f00;
+                background: #eee;
+                cursor: pointer; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .huadong {
+            background: #eee;
+            height: 26px;
+            border-radius: 13px;
+            position: relative;
+            text-align: right;
+            line-height: 26px;
+            padding-right: 20px;
+            color: #ccc; }
+            #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .huadong span {
+              position: absolute;
+              height: 100%;
+              left: 0;
+              top: 0; }
+              #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .huadong span img {
+                height: 100%; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .loginC input {
+            padding-left: 0;
+            background-color: #e31436;
+            color: #fff;
+            font-size: 14px; }
+            #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .loginC input:hover {
+              background: #f00; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .tiaokuan p {
+            display: inline-block; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .tiaokuan input {
+            width: auto;
+            height: auto; }
+          #loginMain .container .loginFormAll .loginFormPhone .phoneLogin .error {
+            height: 16px;
+            margin-bottom: 0; }
